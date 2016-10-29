@@ -1,12 +1,5 @@
 import socket
 
-#k9 = "license.k9webprotection.com"
-#k9port = 80
-#k9args = {"Connection": "close", "User-Agent": "K9 Web Protection 4.5.1001",
-#          "Content-Type": "application/x-www-form-urlencoded"}
-#k9vars = {"ul": "K997Y8D7EB",
-#          "e": "1483208249dd6d102b57723fe49a0a3a792189e7541d5f9f1117817c00f299005d9b47117817c00f2990173a0020c7bc3f00f299014c666523c68d6011936503218661429cad0ad219a08f938502b2c091fdd7cd0bb26cd174843e011837b1e70e72220c50613a78f1023f5e613f332b06c5b060b218c11f855b81e0e25709e8ec61bceaf4"}
-
 class TCP:
     def __init__(self, host, port):
         """Define a TCP Connection"""
